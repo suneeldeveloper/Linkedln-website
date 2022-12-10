@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="index.html" class="logo"><img src="../images/logo.png" alt=""></a>
+
+            <div class="search-box">
+                <img src="../images/search.png" alt="">
+                <input type="text" placeholder="Search.....">
+            </div>
+        </div>
+        <div class="nav-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="../images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="../images/network.png"><span>My Network</span></a></li>
+                <li><a href="#"><img src="../images/jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="../images/message.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="../images/notification.png"><span>Notification</span></a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="online">
+                <img src="../images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+        <!-- ----------------profile-dropdown-menu -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="../images/user-1.png" alt="">
+                    <div>
+                        <h3>Suneel Kumar</h3>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="../images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="../images/setting.png">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="../images/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="../images/display.png">
+                    <p>Dispaly & Accessiblity</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="../images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- --------------navbar-end -->
+
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="../images/cover-pic.png" width="100%">
+                <div class="profile-inner">
+                    <img src="../images/user-1.png" alt="" class="profile-pic">
+                    <h1>Suneel kumar</h1>
+                    <b>Web Developer at Microsoft | Former developer at DataStack and Intern at Oracle</b>
+                    <p>San Francisco, United States &middot; <a href="#">Conatct info</a></p>
+                    
+                    <div class="mutual-connection">
+                        <img src="../images/user-2.png" >
+                        <span>1 mutual connection: Orlando Diggs</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="profile-sidebar"></div>
+    </div>
+
+
+    <script src="../js/app.js"></script>
+</body>
+
+</html>
